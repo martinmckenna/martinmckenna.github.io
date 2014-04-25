@@ -1,6 +1,6 @@
 #header {height:200px; color: #1240AB; font-family: Century Gothic Book, Helvetica, sans-serif; font-size: 20px;}
 #headerimg {float:left; margin-right: 20px}
-.everything{border: solid; background:pink; width:75%; margin:0 auto; padding: 20px;}
+.everything{border: solid; background:#ff69b4; width:75%; margin:0 auto; padding: 20px;}
 article {width: 55%; margin-left: 20px; padding: 20px 0px 20px; float: left;}
 aside {width: 35%; margin-right: 20px; padding: 20px 0px 20px; float: right;}
 footer {clear: both; text-align: center; margin-top: 20px;}
