@@ -7,10 +7,23 @@
      src: url('fonts/eurostile.ttf'); 
 }
 
-#header {font-family: "eurostile bold", arial, sans-serif; height:200px; color: #white; font-size: 20px;}
-#headerimg {float:left; margin-right: 20px}
-.everything{color: black; font-size: 15pt; border:solid; border-color:black; background:pink; width:75%; margin:0 auto; padding: 20px;}
-article {font-family: eurostile, arial, sans serif;width: 55%; margin-left: 20px; padding: 20px 0px 20px; float: left;}
-aside {font-family: eurostile, arial, sans-serif; width: 35%; margin-right: 20px; padding: 20px 0px 20px; float: right;}
-footer {clear: both; text-align: center; margin-top: 20px;}
-h1 {text-align:center;}
+.header {
+   height: 120px; background: #6A92D4; margin:-10px; z-index:0;
+}
+#headercontent {
+  width: 75%; margin: 0 auto;padding: 20px; 
+}
+body{
+  background:#DAD2D0;
+}
+.container {
+  background: pink; width:75%; margin: 0 auto; overflow: hidden; box-shadow: 0 0 5px 5px #888; font-family: eurostile, arial, sans-serif; font-size: 15pt; z-index:1;
+}
+#article {
+  width: 55%; padding: 15px; float:left;
+}
+#about {
+}
+#aside{float:right; width: 35%; padding: 15px;
+}
+.footer{text-align:center; margin: 20px;}
