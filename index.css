@@ -39,7 +39,7 @@ body{
 #article {
   width: 55%; padding: 15px; float:left;
 }
-#about {
+#piderman {float:left; margin-right:30px; margin-bottom:20px;
 }
 #aside{float:right; width: 35%; padding: 15px;
 }
