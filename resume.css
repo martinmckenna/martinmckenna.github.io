@@ -1,0 +1,49 @@
+@font-face {
+     font-family: eurostile bold;
+     src: url('fonts/eurostile-bold.ttf'); 
+}
+@font-face {
+     font-family: eurostile;
+     src: url('fonts/eurostile.ttf'); 
+}
+
+.header {
+   height: 120px; background: #6A92D4; margin:-10px -10px -30px;
+}
+#headercontent {
+  width: 75%; margin: 0 auto;padding-top:10px; 
+}
+.navbar{
+    list-style:none;
+  margin: 0 auto;
+  width:75%;
+    padding:0;
+    text-align:center; 
+  background:#ebebeb;
+  box-shadow: 0 3px 5px 2px #888;
+  font-family: eurostile, arial, sans-serif;
+}
+.navbar li{
+    display:inline;
+}
+.navbar a{
+    display:inline-block;
+    padding:10px;
+}
+body{
+  background:#DAD2D0;
+}
+.container {
+  background: pink; width:75%; margin: -15px auto 0 auto; overflow: hidden; box-shadow: 0 3px 5px 2px #888; font-family: eurostile, arial, sans-serif; font-size:15pt;
+}
+
+.resume{
+  margin: 20px;
+}
+
+.list1{display:inline-block; margin-top: -20px;}
+.list2{display:inline-block; margin-top: -20px;}
+.list3{display:inline-block; margin-top: -20px;}
+.list4{display:inline-block; margin-top: -20px;}
+
+.footer{text-align:center; margin: 20px;}
