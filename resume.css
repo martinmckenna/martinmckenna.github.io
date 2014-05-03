@@ -8,7 +8,7 @@
 }
 
 .header {
-   height: 120px; background: #6A92D4; margin:-10px -10px -30px;
+   height: 120px; background: #6A92D4; margin:-10px -8px -30px;
 }
 #headercontent {
   width: 75%; margin: 0 auto;padding-top:10px; 
@@ -39,6 +39,19 @@ body{
 
 .resume{
   margin: 20px;
+}
+
+#uofsdate{
+  float:right;margin-top:-60px;
+}
+#romandate{
+  float:right;margin-top:-40px;
+}
+#appcodate{
+  float:right;margin-top:-61px;
+}
+#chickiedate{
+  float:right;margin-top:-61px;
 }
 
 .list1{display:inline-block; margin-top: -20px;}
