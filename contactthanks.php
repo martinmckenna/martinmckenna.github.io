@@ -17,7 +17,7 @@
             <a href="http://martinmckenna.github.io/">Projects</a>
           </li>
           <li id = "Contact">
-            <a href="http://martinmckenna.github.io/">Contact</a>
+            <a href="http://martinmckenna.github.io/contact">Contact</a>
           </li>
             </ul>
             </div>
@@ -25,7 +25,7 @@
        <div id = "thanks">
        <h1>Your message has been sent!</h1><br />
 		
-		<p><a href="contact.html">Back to Contact Form</a></p>
+		<p><a href="http://martinmckenna.github.io/contact">Back to Contact Form</a></p>
 	
 	</div>
 	
