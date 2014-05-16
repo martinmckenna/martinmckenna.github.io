@@ -36,47 +36,7 @@ body{
 .container {
   background: pink; width:75%; margin: -15px auto 0 auto; overflow: hidden; box-shadow: 0 3px 5px 2px #888; font-family: eurostile, arial, sans-serif; font-size:15pt;
 }
-
-#contact  {padding-left:30px;
-}
-
-#thanks {
-padding-left:30;
-}
-
-#contact-area {
-	width: 600px;
-	margin-top: 25px;
-  padding:30px;
-}
-
-#contact-area input, #contact-area textarea {
-	padding: 5px;
-	width: 471px;
-	font-size: 1.4em;
-	margin: 0px 0px 10px 0px;
-	border: 2px solid #ccc;
-}
-
-#contact-area textarea {
-	height: 90px;
-}
-
-#contact-area textarea:focus, #contact-area input:focus {
-	border: 2px solid #900;
-}
-
-#contact-area input.submit-button {
-	width: 100px;
-	float: right;
-}
-
-label {
-	float: left;
-	text-align: right;
-	margin-right: 15px;
-	width: 100px;
-	padding-top: 5px;
-	font-size: 1.4em;
+h1{
+text-align:center;
 }
 .footer{text-align:center; margin: 20px;}

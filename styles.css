@@ -36,6 +36,13 @@ body{
 .container {
   background: pink; width:75%; margin: -15px auto 0 auto; overflow: hidden; box-shadow: 0 3px 5px 2px #888; font-family: eurostile, arial, sans-serif; font-size:15pt;
 }
+#article {
+  width: 55%; padding: 15px; float:left;
+}
+#piderman {float:left; margin-right:30px; margin-bottom:20px;
+}
+#aside{float:right; width: 35%; padding: 15px;
+}
 
 #contact  {padding-left:30px;
 }
@@ -79,4 +86,18 @@ label {
 	padding-top: 5px;
 	font-size: 1.4em;
 }
+
+#text{
+text-align:center;
+}
+
+.resume{
+  margin: 20px;
+}
+
+.list1{display:inline-block; margin-top: -20px;}
+.list2{display:inline-block; margin-top: -20px;}
+.list3{display:inline-block; margin-top: -20px;}
+.list4{display:inline-block; margin-top: -20px;}
+
 .footer{text-align:center; margin: 20px;}
