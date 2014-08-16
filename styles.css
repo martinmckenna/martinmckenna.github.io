@@ -7,6 +7,11 @@
      src: url('fonts/eurostile.ttf'); 
 }
 
+@font-face {
+     font-family: cabin;
+     src: url('fonts/Cabin-Regular.ttf'); 
+}
+
 .header {
    height: 120px; background: #6A92D4; margin:-10px -8px -30px;
 }
@@ -21,7 +26,7 @@
     text-align:center; 
   background:#ebebeb;
   box-shadow: 0 3px 5px 2px #888;
-  font-family: eurostile, arial, sans-serif;
+  font-family: cabin, arial, sans-serif;
 }
 .navbar li{
     display:inline;
@@ -34,12 +39,12 @@ body{
   background:#DAD2D0;
 }
 .container {
-  background: pink; width:75%; margin: -15px auto 0 auto; overflow: hidden; box-shadow: 0 3px 5px 2px #888; font-family: eurostile, arial, sans-serif; font-size:15pt;
+  background: pink; width:75%; margin: -15px auto 0 auto; overflow: hidden; box-shadow: 0 3px 5px 2px #888; font-family: cabin, arial, sans-serif; font-size:15pt;
 }
 #article {
   width: 55%; padding: 15px; float:left;
 }
-#piderman {float:left; margin-right:30px; margin-bottom:20px;
+#headshot {float:left; margin-right:30px; margin-bottom:20px;
 }
 #aside{float:right; width: 35%; padding: 15px;
 }
