@@ -70,4 +70,7 @@
      .icon {
          width: 100%;
      }
+     .header>p {
+         font-size: .8em;
+     }
  }
