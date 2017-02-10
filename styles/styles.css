@@ -1,11 +1,34 @@
+.header {
+    flex-grow: 1;
+    width: 100%;
+    margin: 1em;
+}
+
+.icon {
+    flex-grow: 1;
+    width: 27%;
+    margin: 1em;
+}
+
 .container {
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: row/* works with row or column */
+    /* You can set flex-wrap and flex-direction individually */
+    -webkit-flex-direction: row;
     flex-direction: row;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* Or do it all in one line with flex flow */
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    /* tweak the where items line up on the row */
+    /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+    -webkit-align-content: flex-end;
+    align-content: flex-end;
     width: 75%;
+    background-color: red;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 1em;
+    text-align: center;
 }
