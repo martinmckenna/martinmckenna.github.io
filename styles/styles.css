@@ -1,34 +1,73 @@
-.header {
-    flex-grow: 1;
-    width: 100%;
-    margin: 1em;
-}
-
-.icon {
-    flex-grow: 1;
-    width: 27%;
-    margin: 1em;
-}
-
-.container {
-    display: -webkit-flex;
-    display: flex;
-    /* You can set flex-wrap and flex-direction individually */
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    /* Or do it all in one line with flex flow */
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    /* tweak the where items line up on the row */
-    /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
-    -webkit-align-content: flex-end;
-    align-content: flex-end;
-    width: 75%;
-    background-color: red;
-    margin: 0 auto;
-    padding: 5px;
-    margin-top: 1em;
-    text-align: center;
-}
+ a {
+     color: inherit;
+     /* blue colors for links too */
+     text-decoration: inherit;
+     /* no underline */
+ }
+ 
+ h1 {
+     font-family: 'Raleway', sans-serif;
+ }
+ 
+ html {
+     background-color: #f0f0f5;
+ }
+ 
+ .header {
+     flex-grow: 1;
+     width: 100%;
+     margin: 1.2em;
+     font-size: 1.2em;
+     line-height: 1.5em;
+ }
+ 
+ .icon {
+     flex-grow: 1;
+     width: 27%;
+     margin: 1.2em;
+     font-size: 1.5em;
+ }
+ 
+ .container {
+     display: -webkit-flex;
+     display: flex;
+     /* You can set flex-wrap and flex-direction individually */
+     -webkit-flex-direction: row;
+     flex-direction: row;
+     -webkit-flex-wrap: wrap;
+     flex-wrap: wrap;
+     /* Or do it all in one line with flex flow */
+     -webkit-flex-flow: row wrap;
+     flex-flow: row wrap;
+     /* tweak the where items line up on the row */
+     /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+     -webkit-align-content: flex-end;
+     align-content: flex-end;
+     width: 75%;
+     background-color: #ccf2ff;
+     margin: 0 auto;
+     padding: 5px;
+     margin-top: 1em;
+     text-align: center;
+     -webkit-box-shadow: 0 5px 10px 5px #A1A1A1;
+     box-shadow: 0 5px 10px 5px #A1A1A1;
+ }
+ 
+ .icon *:hover {
+     color: darkgrey;
+     -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+     -ms-transition: all .25s ease-in-out;
+     -o-transition: all .25s ease-in-out;
+     transition: all .25s ease-in-out;
+ }
+ 
+ p {
+     font-family: "Slabo 27px", serif;
+ }
+ 
+ @media (max-width: 500px) {
+     .icon {
+         width: 100%;
+     }
+ }
