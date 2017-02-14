@@ -48,6 +48,7 @@
      margin: 0 auto;
      padding: 5px;
      margin-top: 1em;
+     margin-bottom: 1em;
      text-align: center;
      -webkit-box-shadow: 0 5px 10px 5px #A1A1A1;
      box-shadow: 0 5px 10px 5px #A1A1A1;
@@ -63,7 +64,8 @@
  }
  
  p {
-     font-family: "Slabo 27px", serif;
+     font-family: "Lora", serif;
+     line-height: 1.8em;
  }
  
  @media (max-width: 500px) {
@@ -72,5 +74,12 @@
      }
      .header>p {
          font-size: .85em;
+     }
+ }
+
+ @media (max-width: 800px){
+    .container{
+         width:100%;
+         margin:0;
      }
  }
